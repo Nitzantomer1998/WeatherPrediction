@@ -1,11 +1,11 @@
 # Import necessary libraries
-import os
+import os  # For working with file paths
 
-import matplotlib.pyplot as plt
-import numpy as np
-import pandas as pd
-from sklearn.model_selection import train_test_split
-from sklearn.neighbors import KNeighborsClassifier
+import matplotlib.pyplot as plt  # For graph making
+import numpy as np  # For mathematical
+import pandas as pd  # For data loading and manipulation
+from sklearn.model_selection import train_test_split  # For data splitting
+from sklearn.neighbors import KNeighborsClassifier  # For KNN classification
 
 # Load and preprocess the data
 weather_data = pd.read_csv(os.path.join("../data", "weather.csv"))
@@ -26,6 +26,7 @@ accuracy_distance_knn = []
 
 # Iterate over each k value and perform the trials
 for k_value in k_values:
+
     # Initialize empty lists to store accuracy scores for each trial
     uniform_accuracy_k = []
     distance_accuracy_k = []
