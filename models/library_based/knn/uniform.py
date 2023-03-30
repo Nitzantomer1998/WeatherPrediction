@@ -46,4 +46,4 @@ predicted_labels = uniform_knn.predict(test_features)
 test_accuracy = round(accuracy_score(test_labels, predicted_labels), 4) * 100
 
 # Print the accuracy score for the model on the testing set
-print(f'Test accuracy = {test_accuracy}')
+print(f'KNN Uniform K=10 Accuracy = {test_accuracy}')

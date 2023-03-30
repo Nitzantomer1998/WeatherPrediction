@@ -4,7 +4,7 @@ import os  # For working with file paths
 import pandas as pd  # For data loading and manipulation
 from sklearn.metrics import accuracy_score  # For computing classification accuracy
 from sklearn.model_selection import cross_val_score, train_test_split  # For cross-validation and data splitting
-from sklearn.naive_bayes import GaussianNB  # For Gaussian Naive Bayes classification
+from sklearn.naive_bayes import GaussianNB  # For gaussian Naive Bayes classification
 from sklearn.preprocessing import StandardScaler  # For feature scaling
 
 # Load the data from the CSV file
@@ -46,4 +46,4 @@ predicted_labels = gaussian_naive_bayes.predict(test_features)
 test_accuracy = round(accuracy_score(test_labels, predicted_labels), 4) * 100
 
 # Print the accuracy score for the model on the testing set
-print(f'Test accuracy = {test_accuracy}')
+print(f'Naive Bayes Gaussian Estimate Prior Accuracy = {test_accuracy}')

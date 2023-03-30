@@ -46,4 +46,4 @@ predicted_labels = gaussian_naive_bayes.predict(test_features)
 test_accuracy = round(accuracy_score(test_labels, predicted_labels), 4) * 100
 
 # Print the accuracy score for the model on the testing set
-print(f'Test accuracy = {test_accuracy}')
+print(f'Naive Bayes Gaussian 1/K Prior Accuracy = {test_accuracy}')
