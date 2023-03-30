@@ -1,4 +1,4 @@
-# Import necessary libraries
+# Imports necessary libraries
 import os  # For working with file paths
 
 import matplotlib.pyplot as plt  # For graph making
