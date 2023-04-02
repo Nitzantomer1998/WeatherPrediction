@@ -17,9 +17,9 @@ class NaiveBayesClassifier:
         self.class_variance = {}
         self.class_prior = {}
         self.space = space
-        self.calculate_class_mean_variance_prior()
+        self.calculate_class_mean_prior()
 
-    def calculate_class_mean_variance_prior(self):
+    def calculate_class_mean_prior(self):
         """
         Calculates the mean, variance and prior probabilities for each classification in the space.
         """
