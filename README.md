@@ -17,7 +17,7 @@
 <ol>
    <li>
       Clone or download the repository to your local machine
-      <pre>$ git clone https://github.com/Nitzantomer1998/WeatherPrediction.git</pre>
+      <pre><code>git clone https://github.com/Nitzantomer1998/WeatherPrediction.git</code></pre>
    </li>
    <li>Open the project in Pycharm IDE</li>
    <li>Run the program to predict upcoming weather</li>
